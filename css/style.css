@@ -6,7 +6,7 @@
 }
 
 * {
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif, '微軟正黑體';
     font-size: 16px;
 }
 
@@ -132,12 +132,31 @@
     padding: auto;
 }
 
+.sidebar {
+    width: 100%
+}
+
+.content-title {
+    font-size: 24px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
 .footer {
     height: 50px;
-    background-color: gray;
+    background-color: rgb(192, 192, 192);
     color: white;
 }
 
 .pull-right {
     text-align: right;
+}
+
+.bk-gary {
+    background-color: gray;
+}
+
+.section {
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
