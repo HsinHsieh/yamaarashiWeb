@@ -1,31 +1,12 @@
-.banner-bg {
-    background: transparent url("../img/home_banner.png") no-repeat;
-    background-size: cover;
-    height: 100vh;
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 400;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype')
 }
-.logo-container {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    justify-content: flex-end;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-    .logo-container > .logo {
-        display: flex;
-        flex-direction: column;
-        margin-right: 25%;
-    }
-        .logo-container > .logo > * {
-            width: 200%;
-        }
-
 
 * {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
     font-size: 16px;
 }
 
@@ -47,6 +28,83 @@
 * a:active {
     text-decoration: none;
     color: inherit
+}
+
+.banner-bg {
+    background: transparent url("../img/home_banner.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-container>.logo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0%;
+}
+
+.logo-container>.logo>* {
+    width: 60%;
+}
+
+.section-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-container {
+    background-color: #eee;
+    max-width: 100%;
+}
+
+.section-container>.row>.col {
+    padding: 50px 50px;
+}
+
+.section-context {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    height: 5%;
+    color: #929292;
+    font-size: 22px;
+}
+
+.section-words {
+    height: 70%;
+    color: #929292;
+}
+
+.section-button {
+    display: block;
+    border: 1px solid #929292;
+    border-radius: 5px;
+    height: auto;
+    width: max-content;
+}
+
+.section-button>.button-text {
+    font-size: 14px;
+    color: #929292;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 35px;
+    text-align: center;
 }
 
 .nav-logo {
