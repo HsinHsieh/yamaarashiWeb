@@ -3,6 +3,7 @@
     background-size: cover;
     height: 100vh;
 }
+
 .logo-container {
     height: 100%;
     width: 100%;
@@ -14,18 +15,20 @@
     top: 0;
     left: 0;
 }
-    .logo-container > .logo {
-        display: flex;
-        flex-direction: column;
-        margin-right: 25%;
-    }
-        .logo-container > .logo > * {
-            width: 200%;
-        }
+
+.logo-container>.logo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25%;
+}
+
+.logo-container>.logo>* {
+    width: 200%;
+}
 
 
 * {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif, '微軟正黑體';
     font-size: 16px;
 }
 
@@ -74,12 +77,31 @@
     padding: auto;
 }
 
+.sidebar {
+    width: 100%
+}
+
+.content-title {
+    font-size: 24px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
 .footer {
     height: 50px;
-    background-color: gray;
+    background-color: rgb(192, 192, 192);
     color: white;
 }
 
 .pull-right {
     text-align: right;
+}
+
+.bk-gary {
+    background-color: gray;
+}
+
+.section {
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
