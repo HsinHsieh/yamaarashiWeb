@@ -1,12 +1,5 @@
-@font-face {
-    font-family: 'Noto Sans TC';
-    font-style: normal;
-    font-weight: 400;
-    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype')
-}
-
 * {
-    font-family: 'Noto Sans TC', sans-serif, '微軟正黑體';
+    font-family: 'Noto Sans TC', sans-serif;
     font-size: 16px;
 }
 
@@ -91,7 +84,6 @@
 .section-button {
     display: block;
     border: 1px solid #929292;
-    border-radius: 5px;
     height: auto;
     width: max-content;
 }
