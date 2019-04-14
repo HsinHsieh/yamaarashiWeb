@@ -140,8 +140,15 @@
     padding: 10px;
 }
 
+.nav-border {
+    border-top: 5px solid gray;
+    border-bottom: 5px solid gray;
+    margin-bottom: 30px;
+}
+
 .nav {
     text-align: justify;
+    vertical-align: middle;
 }
 
 .nav:after {
@@ -155,6 +162,8 @@
     font-family: 'Noto Serif TC', serif;
     font-size: 28px;
     padding: auto;
+    color: black;
+    margin-top: 15px;
 }
 
 .sidebar {
@@ -164,7 +173,14 @@
 .content-title {
     font-size: 24px;
     border-bottom: 2px solid black;
-    padding-bottom: 5px;
+    padding-bottom: 19.92px;
+    font-family: 'Noto Serif TC';
+    font-weight: 300;
+}
+
+.form {
+    display: block;
+    width: 500px;
 }
 
 .footer {
