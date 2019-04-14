@@ -24,3 +24,62 @@
         }
 
 
+* {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+
+* a:link {
+    text-decoration: none;
+    color: inherit
+}
+
+* a:visited {
+    text-decoration: none;
+    color: inherit
+}
+
+* a:hover {
+    text-decoration: none;
+    color: inherit
+}
+
+* a:active {
+    text-decoration: none;
+    color: inherit
+}
+
+.nav-logo {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+.nav {
+    text-align: justify;
+}
+
+.nav:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.nav-item {
+    display: inline-block;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 28px;
+    padding: auto;
+}
+
+.footer {
+    height: 50px;
+    background-color: gray;
+    color: white;
+}
+
+.pull-right {
+    text-align: right;
+}
