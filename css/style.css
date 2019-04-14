@@ -23,6 +23,8 @@
     color: inherit
 }
 
+/* index start */
+
 .banner-bg {
     background: transparent url("../img/home_banner.png") no-repeat;
     background-size: cover;
@@ -98,6 +100,31 @@
     padding: 15px 35px;
     text-align: center;
 }
+
+.index-footer {
+    height: 50px;
+    background-color: #fff;
+    color: #929292;
+}
+
+.index-footer>.col>.row>p {
+    padding: 0 50px;
+}
+
+.banner-sm {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.banner-sm>img {
+    width: 100vw;
+    height: auto;
+}
+
+/* index end */
 
 .nav-logo {
     display: block;
