@@ -147,12 +147,11 @@
 .nav-border {
     border-top: 5px solid gray;
     border-bottom: 5px solid gray;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .nav {
     text-align: justify;
-    vertical-align: middle;
 }
 
 .nav:after {
@@ -164,14 +163,14 @@
 .nav-item {
     display: inline-block;
     font-family: 'Noto Serif TC', serif;
-    font-size: 28px;
+    font-size: 24px;
     padding: auto;
     color: black;
     margin-top: 15px;
 }
 
 .sidebar {
-    width: 100%
+    width: 100%;
 }
 
 .content-title {
@@ -182,13 +181,12 @@
     font-weight: 300;
 }
 
-.form {
-    display: block;
-    width: 500px;
+.menu_img {
+    width: 100%;
 }
 
 .footer {
-    height: 50px;
+    height: 80px;
     background-color: rgb(192, 192, 192);
     color: white;
 }
