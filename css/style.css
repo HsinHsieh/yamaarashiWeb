@@ -108,7 +108,7 @@
 }
 
 .index-footer {
-    height: 50px;
+    height: 80px;
     background-color: rgb(192, 192, 192);
     color: #fff;
 }
@@ -118,7 +118,7 @@
 }
 
 .index-footer>.col>.row>p {
-    padding: 0 50px;
+    padding: 15px 50px;
 }
 
 .banner-sm {
