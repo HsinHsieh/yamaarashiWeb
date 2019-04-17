@@ -147,17 +147,20 @@
     }
     .sec-img-mobile {
         display: block;
-        /* justify-content: center; */
         padding-bottom: 50px;
         margin-left: 20px;
         margin-right: 20px;
-        overflow: auto;
     }
     .section-context p {
         width: 100%;
     }
     .logo > p {
         color: #fff !important;
+    }
+    .section-img {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0) !important;
     }
 }
 @media only screen and (max-width: 1155px) {
