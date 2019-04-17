@@ -146,11 +146,12 @@
         display: none;
     }
     .sec-img-mobile {
-        display: flex;
-        justify-content: center;
+        display: block;
+        /* justify-content: center; */
         padding-bottom: 50px;
         margin-left: 20px;
         margin-right: 20px;
+        overflow: auto;
     }
     .section-context p {
         width: 100%;
