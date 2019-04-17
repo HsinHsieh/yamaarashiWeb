@@ -24,6 +24,9 @@
 }
 
 /* index start */
+.container-fluid {
+    overflow: hidden;
+}
 
 .banner-bg {
     background: transparent url("../img/home_banner.png") no-repeat;
@@ -126,7 +129,7 @@
     margin: 0;
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .banner-sm>img {
