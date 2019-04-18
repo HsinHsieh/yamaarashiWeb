@@ -24,6 +24,42 @@
 }
 
 /* index start */
+.welcome {
+    background: white;
+    z-index: 999;
+    position: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-img {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+.welcome-slogon {
+    display: block;
+    font-family: 'Noto Serif TC', sans-serif;
+    font-size: 96px;
+    text-align: center;
+}
+
+.welcome-loding {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: auto;
+}
+
 .container-fluid {
     overflow: hidden;
 }
@@ -63,7 +99,7 @@
 .section-img {
     max-width: 100%;
     height: auto;
-    box-shadow:0 0 4px 3px gray;
+    box-shadow: 0 0 4px 3px gray;
 }
 
 .section-container {
